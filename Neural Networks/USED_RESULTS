@@ -1,0 +1,32 @@
+hidden_size 128, learning_rate 10, batch_size 64, decay 1 BASIC
+
+hidden_size 256, learning_rate 30, batch_size 128, decay 0.1, mapping gauss_1.0
+Final Test MSE 0.013807627880685243
+Final Test psnr 15.588509301611978
+
+hidden_size 256, learning_rate 30, batch_size 128, decay 0.1, mapping none
+Final Test MSE 0.014399183561004577
+Final Test psnr 15.40632136199283
+hidden_size 256, learning_rate 30, batch_size 128, decay 0.1, mapping basic
+Final Test MSE 0.011132077227383493
+Final Test psnr 16.523937938003012
+hidden_size 256, learning_rate 30, batch_size 128, decay 0.1, mapping gauss_1.0
+Final Test MSE 0.010507813306948445
+Final Test psnr 16.77457656293776
+
+
+hidden_size 256, learning_rate 30, batch_size 64, decay 0.01, mapping none
+Final Test MSE 0.014105780513770561
+Final Test psnr 15.495728824057641
+
+hidden_size 256, learning_rate 10, batch_size 256, decay 0.5, mapping basic
+Final Test MSE 0.010552688579264868
+Final Test psnr 16.75606882485896
+
+hidden_size 256, learning_rate 10, batch_size 128, decay 0.5, mapping gauss_1.0
+Final Test MSE 0.009711534216879446
+Final Test psnr 17.116821596709375
+
+hidden_size 256, learning_rate 10, batch_size 128, decay 0.5, mapping gauss_1.0
+Final Test MSE 0.003988798089126045
+Final Test psnr 20.981279512294225
